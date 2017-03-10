@@ -59,4 +59,6 @@
 	<input type="text" value="" name="number">
 	<input type="submit" value="戳我" name="submiter">
 </form>
+
+哈哈哈哈哈哈啊哈哈 我试试这个
 </body> </html>
