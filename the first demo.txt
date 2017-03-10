@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <title>练习1</title> </head>
+
+<body> <h1>我是最大的标题</h1> <!--导航连接锚标签-->
+
+<!--我试试前边的小黑点怎么布置上去-->
+<ul>
+	<li><a href="#粉刷匠">老大</a></li>
+	<li><a href="#关于排序">老er</a></li>
+	<li><a href="#关于表格">老saner</a></li>
+	<li><a href="#投票">小四儿</a></li>
+</ul>
+<h1>文章的一级标题和网站的一级标题有什么区别？</h1> <h2>文章的老二标题</h2> <p>文章作者 文章发布时间</p> <p>我是一个<a name="粉刷匠">粉刷匠</a>，粉刷本领强，我要把那小房子，耍的更漂亮，更漂亮，更漂亮<br/>好像是br换行。对，是br换行，不过是/我有一头<!--<br/>--> 小毛炉从来也不骑，有一天心血来潮骑着去赶集，我手里拿着小皮鞭<a href="www.bingying.com" title="骗你的，那种玩意怎么会有卖的" target="_bank">(此处附上小皮鞭购买链接) </a>，我手里拿着小皮鞭心里正得意，然后摔了个狗啃泥。心里真的怎的好悲伤，我该做点啥好呢，那亲爱的小毛驴&nsp听说驴肉火烧挺好吃，嘿嘿。 </p> <img src="http://pic19.nipic.com/20120221/8016708_173400250169_2.jpg" /><!--注释 点击图片跳转显示文字啥的我都忘了。-->
+
+<h2>接下来做关于<a name="关于排序">排序的练习</a>什么东东啊<h2> <p>好像又忘记代码了</p> <p>我是谁 我在哪路</p> <ol>1.我是老大</ol> <ol>2.我是老大的弟弟</ol> <ol>3.我是我是老二的弟弟，老大的弟弟之一</ol>
+
+<h3>表格</h3><a name="关于表格">表格</a>
+<table border="1px" bordercolor="#f5b3c5">
+<tr> <th>刺客</th> <th>战士</th> <th>法师</th> <th>肉比</th> </tr> <tr> <td>影流之主-劫</td> <td>德玛西亚-盖伦</td> <td>魔蛇之拥-卡西奥佩娅</td> <td>熔岩巨兽-墨菲特</td> </tr> <tr> <td>刀锋之影-泰隆</td> <td>德莱厄斯</td> <td>只要九九八的-风女</td> <td>凛冬之怒-瑟庄妮</td> </tr> </table>
+
+<h2>投票等选框类</h2><a name="投票">选框</a>
+
+<form method="post" action="save.php">
+	<label for="user name">请输入你的银行账户，钱最多的那个:</label>
+	<input type="text" name="user name">
+	<label for="pass"> 你的银行卡密码:</label>
+	<input for="password" name="pass">
+</form>
+<p>请输入你电话号码</p> <span id="text1">是我么</span>
+
+我在理顺一下<br/>
+<form method="post" action="save.php">
+	<label for>Do you like me?</label>
+    <label for="like">喜欢</label>
+	<input type="radio" name="like">
+	<label for="very like">非常喜欢</label>
+	<input type="radio" name="very like">
+</form>
+我好像明白了啥<br/>
+<form method="post" action="save.php">
+	<labe1 for>多选是这样的</labe1>
+	<label for="you">你</label>
+	<input type="checkbox" name="you">
+	<label for="me">我</label>
+	<input type="checkbox" name="me">
+	<label for="her">她</label>
+	<input type="checkbox" name="her">
+</form>
+
+<form name="i like">
+	<label for>你到底爱不爱我</label>
+	<select>
+		<option value="ai">爱</option>
+		<option value="gengai">更爱</option>
+	</select>
+</form>
+
+<form name="zheyangyekeyi">
+	<label for>你的微信号是多少</label>
+	<input type="text" value="" name="number">
+	<input type="submit" value="戳我" name="submiter">
+</form>
+
+哈哈哈哈哈哈啊哈哈 我试试这个
+</body> </html>
